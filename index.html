@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+	*{margin:0;padding:0;}
+	.front{height:100vh;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		background:url(web.gif);}
+	.front h1{text-align:center;font-size:90px;font-family:arial;color:white;text-shadow: 0 1px 0 #efefef,
+	0 2px 0 #efefef,0 3px 0 #efefef,0 4px 0 #efefef,0 20px 3px rgba(0,0,0,1);
+	animation:xy 2s linear infinite;
+	animation-direction:alternate;
+}
+@keyframes xy{
+	from{transform:rotate(5deg);}
+	to{transform:rotate(-5deg);}
+}
+.header{
+	width:100%;height:80px;background-color:red
+}
+.logo{width:30%;height:80px;text-align:center;background-color:#33c3ff;float:left;}
+.logo h2{position:relative;top:10px;}
+.menu{width:70%;height:80px;background-color:#33c3ff;float:right;}
+.menu ul{list-style:none;text-align:right;}
+.menu li{display:inline;padding:0 20px;font-size:18px;position:relative;top:10px;}
+.relative{position:relative;width:1180px;height:400px;border:1px solid #b566ff;background-color:#b566ff;float:right;top:20px;bottom:30px;}
+.absolute{position:absolute;width:1170px;height:380px; background-color:#f3e6ff;overflow:scroll;bottom:10px}
+section{height:120vh;width:100%;display:flex;justify-content:center;background:url(bg.jpg);}
+.about{;width:700px;padding:50px;background:rgba(255,255,255,.2);}
+.about h2{font-size:50px;position:relative;bottom:270px;left:20px;top:90px;text-align:center;}
+.about ul{text-align;}
+.about li{position:relative;font-size:25px;top:160px;left:190px;}
+.achievements{height:100vh;width:100%;display:flex;background:url(bg.jpg);}
+.achievements h2{font-size:50px;position:relative;bottom:4px;left:550px;text-align:center;}
+.achievements p{font-size:25px;position:relative;bottom:5px;left:120px;right:20px;top:160px}
+.achievements ul{text-align:left;}
+.achievements li{position:relative;top:280px;right:250px;font-size:25px;}
+.skills {height:100vh;width:100%;display:flex;background:url(bg.jpg);}
+.skills h2{font-size:50px;position:relative;bottom:4px;right:170px;left:630px;text-align:center;top:30px}
+.skills p{font-size:25px;position:relative;bottom:20px;left:320px;right:150px;top:160px}
+.skills ul{text-align:left;}
+.skills li{position:relative;top:250px;right:279px;font-size:25px;left:100px;bottom:20px}
+.certificates{height:100vh;width:100%;display:flex;background:url(bg.jpg);}
+.certificates h2{font-size:50px;position:relative;bottom:40px;right:180px;left:350px;text-align:center;top:50px;}
+.certificates p{font-size:30px;position:relative;right:270px;bottom:2px;top:220px}
+.certificates ul{text-align:left;}
+.certificates li{position:relative;right:530px;top:370px;font-size:30px;}
+a{text-decoration:none;}
+a:hover{color:red;}
+.contact{height:60vh;width:100%;display:flex;background-color:#9999ff;}
+.contact h2{font-size:40px;position:relative;bottom:150px;left:510px;top:10px}
+.contact ul{text-align:left;list-style:none;}
+.contact li{position:relative;top:100px;font-size:20px;right:100px;left:160px;}
+.contact img{width:150px;float:left;}
+</style>
+</head>
+<body>
+<div class="header">
+<div class="logo"> <h2>ARINDAM</h2></div>
+<div class="menu"><ul>
+<li> <a href="#about">ABOUT</a></li><li> <a href="#achievements">ACHIEVEMENTS</a></li><li> <a href="#skills">SKILLS</a></li><li><a href="#certificates">CERTIFICATES</a></li><li> <a href="#contact">CONNECT</a> </li>
+</ul>
+</div>
+</div>
+<div class="front">
+<h1> AWESOME <br> ARINDAM </h1>
+</div>
+<img src="hi.jpg">
+<div class="relative">
+<div class="absolute"><h2>Myself Arindam , I am truly Awesome! I always have a smile on my face, and faces every difficulty with in very cool manner.Moving on is a sign of healthy heart and mind. It means i am able to handle the sitution and keep moving, which is also one of my biggest strength.I never settle, it doesnt mean i am greedy, it always mean i always expect something better. i am a person who constantly tries to improve my present life, i am truely Awesome. Yes i can say that again,i never settle. Why boringly waste my precious life? I know i am not doing so. I am busy with my fabulous work and i love my characteristic.i am from Tatanagar, Jharkhand, and currently pursuing my Btech From SRM Institute of Science and technology. Through out my btech, i have gained a lot of experience and faced a lot of difficulties and problems, which i faced with a strong heart always kept moving forward, which ,makes me feel proud and amazing about myself.</h2></div>
+</div>
+<section>
+<div class="about" id="about"> <h2>ABOUT ME</h2><ul><li>Origin > Jhamshedpur.Jharkhand</li><br><li>Bornday > 15th May 1997</li><br><li>Location.current > Chennai</li><br><li>Major > Electronics and Communication</li><br><li>ExpectedGraduation > 2020</li><br><li>Nature > Cool and Positive</li><br><li>Interest > [code,cricket,gaming,reading books,visiting places]</li>
+</div>
+</section>
+<div class="achievements" id="achievements"><h2> MY ACHIEVEMENTS </h2><p><strong>SOME OF MY PROUDEST ACHIEVEMENTS</strong></p><ul><li>Captain of my School Cricket Team, in which we qualified for the semi-final</li><br><li>Completed my Python Programming course</li><br><li>Completed my Web development training courses</li><br><li>Part of my Institute NCC squad</li><br><li>Member of organising committee of Institute Of Engineers(India)</li>  </ul>
+</div>
+<div class="skills" id="skills"><h2> MY SKILLS </h2><p><strong>SOME OF MY SKILLS ARE-</strong></p><ul><li>Communication skills</li><br><li>Leadership skills</li><br><li>Management skills</li><br><li>Python programmer</li><br><li>Critical and Creative thinking</li></ul>
+</div>
+<div class="certificates" id="certificates"><h2>HERE ARE SOME OF MY CERTIFICATES</h2>
+<p><a href="newpage1.html">Click here</a> to view all my certificates</p>
+<ul><li>PYTHON PROGRAMMING CERTIFICATE</li><br><li>PROGRAMMING WITH PYTHON</li><br><li>WEB DEVELOPMENT</li>
+</div>
+<div class="contact" id="contact"><h2>CONNECT WITH ME</h2><ul><li>Connect with me on Facebook - <a href="https://www.facebook.com/arindam.patra.52035">|click here|</a></li><br><li>Connect with me on Linkedin - <a href="https://www.linkedin.com/in/arindam-patra-72095513a/">|click here|</a></li><br><li>Connect with me on Twitter - <a href="https://twitter.com/Arindam16117380?s=08">|click here|</a></li>
+<img src="icon.png">
+</body>
+</html>m
